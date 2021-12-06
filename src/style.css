@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #f5f2fe;
+  --secondary-color: #ffff;
+}
+body {
+  background-color: var(--primary-color);
+}
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+.app-warpper {
+  background-color: var(--secondary-color);
+  margin: 60px auto;
+  padding: 8px;
+  padding-bottom: 90px;
+  max-width: 760px;
+  max-height: 700px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 19px;
+}
+.primary-link {
+  display: block;
+  margin-top: 0 auto;
+  text-align: center;
+  padding: 13px;
+  text-decoration: none;
+  background-color: rgb(140, 140, 223);
+  color: var(--secondary-color);
+  border-radius: 22px;
+  border: 1px solid var(--secondary-color);
+}
+.primary-link:hover {
+  color: var(--secondary-color);
+  box-shadow: 3px 5px var(--primary-color);
+}
+.navigator-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
